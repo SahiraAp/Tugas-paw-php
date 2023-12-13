@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+
+}
+
+
+.line {
+    @apply w-[30px] h-[2px] my-2 block bg-hutao;
+}
+
+.line2 {
+    @apply w-[25px] h-[2px] my-2 block bg-hutao;
+}
+
+.line3 {
+    @apply w-[20px] h-[2px] my-2 block bg-hutao;
+}
+
+.btn1 {
+    @apply bg-hutao w-12 h-12 rounded-lg text-center pt-3 mr-2;
+
+}
